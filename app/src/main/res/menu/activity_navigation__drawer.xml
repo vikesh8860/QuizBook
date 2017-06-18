@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_scorecard"
+            android:icon="@drawable/scorecard_drwaer"
+            android:title="Scorecard" />
+        <item
+            android:id="@+id/nav_Setting"
+            android:icon="@drawable/setting_drawer"
+            android:title="Settings" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_drawer"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/feedback_drawer"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_Help"
+                android:icon="@drawable/help_drawer"
+                android:title="Help" />
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/about_us_drawer"
+                android:title="Visit Developer" />
+        </menu>
+    </item>
+
+</menu>

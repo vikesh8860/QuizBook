@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.kvikesh800gmail.relativlayoutjava">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/question"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Quizbook"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Navigation_Activity"
+            android:label="QuizBook"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kvikesh800gmail.relativlayoutjava.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us"
+            android:parentActivityName=".Navigation_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kvikesh800gmail.relativlayoutjava.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".Questions"
+            android:label="Questions"
+            android:parentActivityName=".Navigation_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kvikesh800gmail.relativlayoutjava.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".Result"
+            android:label="Result" />
+        <activity
+            android:name=".ScoreCard"
+            android:label="High Score"
+            android:parentActivityName=".Navigation_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kvikesh800gmail.relativlayoutjava.Navigation_Activity" />
+        </activity>
+        <activity
+            android:name=".Help"
+            android:label="Help" />
+        <activity
+            android:name=".Setting_activity"
+            android:label="@string/title_activity_setting_activity"
+            android:parentActivityName=".Navigation_Activity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.kvikesh800gmail.relativlayoutjava.Navigation_Activity" />
+        </activity>
+    </application>
+
+</manifest>

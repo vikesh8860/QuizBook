@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.kvikesh800gmail.relativlayoutjava.Help">
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="180dp"
+         android:layout_marginTop="20dp"
+         android:textSize="28sp"
+         android:text="If you want help at any moment then feel free to write to me , I will be happy to assist you."
+         android:textAlignment="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Want Help"
+        android:textSize="20sp"
+        android:id="@+id/help"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        />
+</LinearLayout>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.kvikesh800gmail.relativlayoutjava.Navigation_Activity"
+    tools:showIn="@layout/app_bar_navigation_">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b1"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#f0eb79"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:drawableTop="@drawable/computer"
+                    android:paddingTop="25dp"
+                    android:text="Computer"
+                    android:textAllCaps="false"
+                    android:textColor="#2f2e2e"
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:id="@+id/b2"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#524d47"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:drawableTop="@drawable/sports"
+                    android:paddingTop="25dp"
+                    android:text="Sports"
+                    android:textAllCaps="false"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b3"
+                    android:layout_width="0dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#e7595d"
+                    android:drawableLeft="@drawable/invention"
+                    android:paddingLeft="45dp"
+                    android:text="Inventions"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b4"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#a084d1"
+                    android:drawableTop="@drawable/general"
+                    android:paddingTop="25dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="General Knowledge"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/b5"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#80e7a9"
+                    android:drawableTop="@drawable/science"
+                    android:paddingTop="25dp"
+                    android:text="Science"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b6"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_weight="1"
+                    android:background="#d9dbd0"
+                    android:drawableTop="@drawable/english"
+                    android:paddingTop="40dp"
+                    android:text="English"
+                    android:textAllCaps="false"
+                    android:textColor="#2f2e2e"
+                    android:textSize="18sp" />
+
+
+                <Button
+                    android:id="@+id/b7"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#cc8d66"
+                    android:drawableTop="@drawable/books"
+                    android:paddingTop="25dp"
+                    android:text="Authors"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b8"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#63c28c"
+                    android:drawableLeft="@drawable/maths"
+                    android:paddingLeft="35dp"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:text="Mathematics"
+                    android:textAllCaps="false"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/b9"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#f71735"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:drawableTop="@drawable/capital"
+                    android:paddingTop="25dp"
+                    android:text="Capitals"
+                    android:textAllCaps="false"
+                    android:textColor="#fff" />
+
+
+                <Button
+                    android:id="@+id/b10"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="#88a6db"
+                    android:drawableTop="@drawable/currency"
+                    android:paddingTop="25dp"
+                    android:text="Currency"
+                    android:foreground="?attr/selectableItemBackground"
+                    android:textAllCaps="false"
+                    android:textColor="#fff" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
