@@ -36,3 +36,6 @@ If you want to contact me,then feel free to ping me here : https://kvikesh800.wi
 | ![settings](https://user-images.githubusercontent.com/11665612/27259103-e20f57d8-5428-11e7-9060-da9c622fa7b6.png) | ![help](https://user-images.githubusercontent.com/11665612/27259105-e5069b4a-5428-11e7-812a-865bf364cda7.png) | ![visitdeveloper](https://user-images.githubusercontent.com/11665612/27259107-e8d11fac-5428-11e7-8cc1-dad6e6e6105e.png) |
 |:---:|:---:|:---:|
 | **Settings Window** | **Help Window** | **Visit Developer** |
+
+# Licence
+The following project is for learning purposes and intended not to be used for commercial purpose (Publish on playstore)
