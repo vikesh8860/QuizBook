@@ -1,6 +1,6 @@
 # QuizBook
 QuizBook is an Android app in which users can play quizzes is 10 different categories with nearly 300 questions in total.
-This repository is made for the purpose to distribute my Android project.
+This repository is made for the purpose to showcase my project for learning purposes and should not be used commercially.
 
 The salient features of the app are:
    1. Login is provided to the user so that only that person can access the app.
