@@ -14,7 +14,7 @@ The app is designed with Google Material Design that supports the Android versio
 
 If you want to contact me, then feel free to ping me here: https://kvikesh800.wixsite.com/learner/contact
 
-### You can download the .apk file of the project at: https://github.com/vikesh8860/QuizBook-Apk-File 
+### You can download the .apk file of the project at: https://github.com/vikesh8860/QuizBook/releases/latest
 
 ### **I also highly recommend you to suggest some improvements in the project.**
 
