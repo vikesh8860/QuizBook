@@ -1,4 +1,4 @@
-# QuizBook
+# QuizBook App For Learning 
 QuizBook is an Android app in which users can play quizzes is 10 different categories with nearly 300 questions in total.
 This repository is made for the purpose to showcase my project for learning purposes and should not be used commercially.
 
